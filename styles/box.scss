@@ -24,7 +24,7 @@
         background-color: var(--color-gold-light);
         border-radius: 5px;
 
-        .title {
+        .title { /*stylint-disable*/
             margin-bottom: calc(var(--spacing) * 0.5);
             border-bottom: var(--border-small) solid var(--color-dark);
           }

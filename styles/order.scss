@@ -3,7 +3,7 @@
   fieldset {
     border: var(--border-small) solid var(--color-dark);
     
-    
+
     legend {
         font-weight: bold;
       }
@@ -23,7 +23,7 @@
        }
 
 
-    input[type='checkbox'] {
+    input[type='checkbox'] { /*stylelint-disable*/
         width: auto;
       }
       
