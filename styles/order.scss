@@ -1,0 +1,44 @@
+  /* Pöntunarform */
+  
+  fieldset {
+    border: var(--border-small) solid var(--color-dark);
+    
+    
+    legend {
+        font-weight: bold;
+      }
+
+
+    div label {
+        display: flex;
+        flex-direction: column;
+      }
+
+
+    input,
+    select,
+    textarea {
+    padding: calc(var(--spacing) * 0.5);
+    width: 100%;
+       }
+
+
+    input[type='checkbox'] {
+        width: auto;
+      }
+      
+
+    .checkbox label {
+        flex-direction: row;
+        gap: calc(var(--spacing) * 0.5);
+      }
+      
+
+    form button {
+        padding: calc(var(--spacing) * 0.25);
+        border-radius: var(--border-radius);
+      }
+  }
+  
+
+  
